@@ -1,0 +1,33 @@
+<script>
+
+    let day      = +prompt("Select day of the week")
+    let calendar =prompt("Choose calendar type")
+
+  if(calendar == "julian"){
+      switch(day){
+          case 1 : document.write("Sunday"); break
+          case 2 : document.write("Monday"); break
+          case 3 : document.write("Tuestay"); break
+          case 4 : document.write("Wednesday"); break
+          case 5 : document.write("Thursday"); break
+          case 6 : document.write("Friday"); break
+          case 7 : document.write("Saturday"); break
+
+          default:document.write("Are you drunk");break
+      }
+
+  }  else if (calendar == "gregorian" ){
+      switch(day){
+          case 1 : document.write("Monday"); break
+          case 2 : document.write("Tuestay"); break
+          case 3 : document.write("Wednesday"); break
+          case 4 : document.write("Thursday"); break
+          case 5 : document.write("Friday"); break
+          case 6 : document.write("Saturday"); break
+          case 7 : document.write("Sunday"); break
+          
+          default:document.write("Are you drunk");break
+      }
+  }
+
+</script>
